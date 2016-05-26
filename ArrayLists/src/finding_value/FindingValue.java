@@ -20,7 +20,9 @@ public class FindingValue {
 			int b = al1.get(i);
 			if (b == num) {
 				System.out.println(num + " is in the ArrayList.");
-				System.out.println(i);
+				System.out.println(num + " is in slot " + i);
+			} else {
+				System.out.println(num + " is not in the ArrayList.");
 			}
 		}
 		// for (int i = 0; i < a.length; i++) {
