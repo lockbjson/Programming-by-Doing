@@ -15,9 +15,9 @@ public class SortingValues {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
 				if (arr[i] < arr[j]) {
-					swap = arr[j];
-					arr[j] = arr[i];
-					arr[i] = swap;
+					swap = arr[i];
+					arr[i] = arr[j];
+					arr[j] = swap;
 				}
 			}
 		}

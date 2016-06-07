@@ -16,7 +16,7 @@ public class Snippet {
 			for (int j = 0; j < symbols.length; j++) {
 				if (input2[i].contains(symbols[j])) { input2[i] = input2[i].replace(symbols[j], input1[j]);}
 			}
-			System.out.print(input2[i] + " ");
+			System.out.print("Result: "+input2[i] + " ");
 		}
 	}
 }
